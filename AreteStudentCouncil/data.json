@@ -1,111 +1,111 @@
 {
     "1":{
-        "name":"李唯蓁",
+        "name":"1",
         "choices":["Q", "L", "H", "R"],
         "chosen":false
     },
     "2":{
-        "name":"藍子昀",
+        "name":"2",
         "choices":["E","Q","G","H","R"],
         "chosen":false
     },
     "3":{
-        "name":"陳以荷",
+        "name":"3",
         "choices":["N", "F", "Q", "M"],
         "chosen":false
     },
     "4":{
-        "name":"邱苡倩",
+        "name":"4",
         "choices":["F", "H", "M"],
         "chosen":false
     },
     "5":{
-        "name":"徐沁",
+        "name":"5",
         "choices":["M", "K", "Q", "O", "R", "N", "F", "B"],
         "chosen":false
     },
     "6":{
-        "name":"雷翔茲",
+        "name":"6",
         "choices":["H", "L", "G", "P", "C", "R"],
         "chosen":false
     },
     "7":{
-        "name":"林妤蓉",
+        "name":"7",
         "choices":["K", "L", "H"],
         "chosen":false
     },
     "8":{
-        "name":"林子婕",
+        "name":"8",
         "choices":["K", "F", "E"],
         "chosen":false
     },
     "9":{
-        "name":"張仁瑀",
+        "name":"9",
         "choices":["R", "K", "Q", "F", "C", "N", "B"],
         "chosen":false
     },
     "10":{
-        "name":"楊若可",
+        "name":"10",
         "choices":["N", "K", "A"],
         "chosen":false
     },
     "11":{
-        "name":"楊茗淳",
+        "name":"11",
         "choices":["A", "J", "N", "O"],
         "chosen":false
     },
     "12":{
-        "name":"何紹翊",
+        "name":"12",
         "choices":["I","H","R"],
         "chosen":false
     },
     "13":{
-        "name":"高家恩",
+        "name":"13",
         "choices":["C","H","D"],
         "chosen":false
     },
     "14":{
-        "name":"高虹樺",
+        "name":"14",
         "choices":["K", "L", "F"],
         "chosen":false
     },
     "15":{
-        "name":"花湧惠",
+        "name":"15",
         "choices":["F", "M", "A"],
         "chosen":false
     },
     "16":{
-        "name":"張沂竣",
+        "name":"16",
         "choices":["M", "C", "I"],
         "chosen":false
     },
     "17":{
-        "name":"卓予杰",
+        "name":"17",
         "choices":[],
         "chosen":false
     },
     "18":{
-        "name":"吳佳芸",
+        "name":"18",
         "choices":["R", "A", "Q"],
         "chosen":false
     },
     "19":{
-        "name":"陳妍沂",
+        "name":"19",
         "choices":["R", "Q", "P", "B", "H", "M", "L"],
         "chosen":false
     },
     "20":{
-        "name":"何彥霖",
+        "name":"20",
         "choices":["P", "Q", "F", "H", "I"],
         "chosen":false
     },
     "21":{
-        "name":"張仁瑀",
+        "name":"21",
         "choices":["Q", "H", "C", "M", "K", "L"],
         "chosen":false
     },
     "22":{
-        "name":"林韋婷",
+        "name":"22",
         "choices":["L", "K", "R", "M", "N", "O", "B", "C","D","I","F","E","A","H"],
         "chosen":false
     }

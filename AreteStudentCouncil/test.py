@@ -1,25 +1,5 @@
 import json
 from math import sqrt
-dictionary = {
-    "A":"林以嵐", 
-    "B":"邱于瑄",
-    "C":"張仲薇",
-    "D":"黃為碩",
-    "E":"王紀璿",
-    "F":"陳聖庭",
-    "G":"董立希",
-    "H":"劉星妤",
-    "I":"朱立恆",
-    "J":"王芊雅",
-    "K":"張念晴",
-    "L":"陳卓琦",
-    "M":"陳佳萱",
-    "N":"李皓宣",
-    "O":"李依玲",
-    "P":"楊秉寰",
-    "Q":"王冠茗",
-    "R":"楊芷嫺"
-}
 dic = {
     "A":["12", "4", "17", "5", "3", "1", "8", "13", "18", "19"],
     "B":["8", "12","3"],
@@ -46,9 +26,9 @@ with open("data.json", mode="r", encoding="utf-8") as json_file:
     print("")
     tempdict = {}
     for letter in dic:
-        print(letter,f"{dictionary[letter]}",":")
+        print(letter,":")
         if len(dic[letter]) == 0:
-            print(": no data of choices found\n")
+            print("no data found\n")
             continue
         else:
             for nums in dic[letter]:
@@ -57,8 +37,8 @@ with open("data.json", mode="r", encoding="utf-8") as json_file:
                 elif letter in data[nums]["choices"]:
                     index14, index15 = int(dic[letter].index(nums)), int(data[nums]["choices"].index(letter))
                     tempdict[data[nums]["name"]] = (65 - index14 * 6.5) + (35 - index15 * 3.5)
-                    if ((65 - index14 * 6.5) + (35 - index15 * 3.5)) >= 85.0:
-                        data[nums]["chosen"] = True
+                    # if ((65 - index14 * 6.5) + (35 - index15 * 3.5)) >= 85.0:
+                    #     data[nums]["chosen"] = True
             [print("%s %5.2f"%(key, value)) for (key, value) in sorted(tempdict.items(), key=lambda x: x[1], reverse=True)]
             tempdict.clear()
             print("\n")
